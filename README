@@ -1,0 +1,33 @@
+OVERVIEW
+========
+
+This is a very small DCPU16 C SDK. It contains the bare minimum
+to develop a C project on a linux based machine. It contains a 
+C compiler (clang), an assembler (gas) and a linker (ld).
+
+The src fold contains the source files of your project.
+The include folder contains the include files.
+The bin folder includes the executables you need.
+
+Since this is a makefile based project, you need to modify the
+Makefile to include all your src files.
+
+USAGE
+=====
+
+The command "make" will generate a a.out file, which contains the
+assembled and linked binary for a DCPU16.
+
+With the command "make clean" you can clean up your project.
+
+
+LICENSE
+=======
+
+This distribution contains the following software:
+
+LLVM-DCPU16: https://github.com/llvm-dcpu16
+binutils-dcpu16: https://github.com/frot/binutils-dcpu16
+
+You can find the full source code of this distribution on those sites.
+Please respect the attached LICENSE file.
